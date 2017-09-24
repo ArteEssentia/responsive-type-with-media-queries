@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* link to some fonts */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Quando);
+
+/* reset the box model */
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+/* we set the base size of the font here */
+html {
+	font-size: 24px;
+	font-family: 'Droid Serif', serif;
+	background-color: #e7bb4a;
+	color: #333333;
+}
+
+/* set the page-width as a percentage of the window */
+/* center the content */
+#page-wrap { 
+  width: 50%; 
+  margin: 4rem auto; /* 100/18 */
+}
+
+/* by setting a max-width for the image, we make that responsive too */
+img {
+    max-width: 90%;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.4rem #333333; /* 8/18 */
+}
+
+/* header style with relative measures to the base font size */
+h2 { 
+	font-size: 2rem; /* 36/18 */
+	margin-bottom: 0.8rem; /* 15/18 */
+	font-family: 'Quando', serif;
+	color: #a2422a;
+}
+
+/* on the web use some more white space than in print */
+p { 
+	line-height: 1.35;
+	margin-bottom: 1.1rem; /* 20/18 */
+}
+
+/* From here on we adjust the base size and the box-size */
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+@media only screen and (max-width : 68.75em) {
+	html {
+		font-size: 22px;
+	}
+	#page-wrap { 
+		width: 55%; 
+		margin: 3.5rem auto; 
+	}
+}
+
+/* ===== == = === 56.25em (900px) === = == ===== */
+@media only screen and (max-width : 56.25em) {
+	hmtl {
+		font-size: 20px;
+	}
+	#page-wrap { 
+		width: 60%; 
+		margin: 3rem auto; 
+	}
+}
+
+/* ===== == = === 48em (768px) === = == ===== */
+@media only screen and (max-width : 48em) {
+	hmtl {
+		font-size: 18px;
+	}
+	#page-wrap { 
+		width: 65%; 
+		margin: 2.5rem auto; 
+	}
+}
+
+/* ===== == = === 37.5em (600px) === = == ===== */
+@media only screen and (max-width: 37.5em) {
+	html {
+		font-size: 16px;
+	}
+	#page-wrap { 
+		width: 75%; 
+		margin: 2rem auto; 
+	}
+}
+
+/* ===== == = === 30em (480px) === = == ===== */
+@media only screen and (max-width : 30em) {
+	html {
+		font-size: 14px;
+	}
+	#page-wrap { 
+		width: 80%; 
+		margin: 1.5rem auto; 
+	}
+}
+
+/* ===== == = === 20em (320px) === = == ===== */
+@media only screen and (max-width : 20em) {
+	html {
+		font-size: 12px;
+	}
+	#page-wrap { 
+		width: 85%; 
+		margin: 1rem auto; 
+	}
+}
