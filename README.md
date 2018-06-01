@@ -25,5 +25,5 @@ Important note: in this example I set the base font-size in the html-element. In
 
 With media queries we then control the different breakpoints to ensure that our presentation always looks good and the typography always remains good to read.
 
-## [Take a look at the live working version of this demo](https://arteessentia.github.io/responsive-type-with-media-queries/)
+## [Take a look at the live working version of this demo](https://VincentKlijn.github.io/responsive-type-with-media-queries/)
 
